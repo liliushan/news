@@ -1,32 +1,44 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <!-- 头部 -->
+    <header-nav>
+      <template v-slot:header-right>
+        <span class="iconfont icon-gongxiangtubiaozhuangtaileicaozuolei59"></span>
+      </template>
+      <template v-slot:header-center>汇聚天下</template>
+      <template v-slot:header-left><span class="iconfont icon-gengduo"></span></template>
+    </header-nav>
+   
+      <keep-alive exclude="shopdetail"><router-view></router-view></keep-alive>
+
+    <!-- tabbar部分 -->
+    <Tabbar></Tabbar>
   </div>
 </template>
 
+<script>
+import HeaderNav from 'components/header/Headernav'
+import Tabbar from 'components/tabbar/Tabbar'
+export default {
+  components:{
+    HeaderNav,
+    Tabbar
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import "assets/css/normalize.css";
+@import "assets/css/base.css";
+@import "assets/iconfont/iconfont.css";
+body{
+  max-width: 15rem;
+  margin: 0 auto;
 }
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#app{
+  height: 100%;
+  padding-top: 49px;
+  padding-bottom: 49px;
+  overflow-x: hidden;
 }
 </style>

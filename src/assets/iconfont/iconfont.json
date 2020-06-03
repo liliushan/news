@@ -1,0 +1,65 @@
+{
+  "id": "1841111",
+  "name": "mall",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1309827",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5651344",
+      "name": "返回顶部",
+      "font_class": "fanhuidingbu",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "5140392",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "964300",
+      "name": "返回",
+      "font_class": "gongxiangtubiaozhuangtaileicaozuolei59",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "5385412",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "1306",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4337764",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "1415521",
+      "name": "选中",
+      "font_class": "xuanzhong",
+      "unicode": "e83b",
+      "unicode_decimal": 59451
+    }
+  ]
+}

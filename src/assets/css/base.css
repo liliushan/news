@@ -1,0 +1,13 @@
+/* 公共的样式 */
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding:10px;
+  list-style: none;
+}
